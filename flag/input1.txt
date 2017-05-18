@@ -1,0 +1,138 @@
+UPX...? sounds like a delivery service :)
+I will malloc() and strcpy the flag there. take it.
+cannot set %fs base address for thread-local storage
+<size from="%zu" to="%zu" total="%zu" count="%zu"/>
+<unsorted from="%zu" to="%zu" total="%zu" count="%zu"/>
+<total type="fast" count="%zu" size="%zu"/>
+<total type="rest" count="%zu" size="%zu"/>
+((size + offset) & (_dl_pagesize-1)) == 0
+(((unsigned long)(((void*)((char*)(p) + 2*(sizeof(size_t))))) & ((2 * (sizeof(size_t))) - 1)) == 0)
+nextchunk->fd_nextsize->bk_nextsize == nextchunk
+nextchunk->bk_nextsize->fd_nextsize == nextchunk
+new_size>0 && new_size<(long)(2*(unsigned long)((((__builtin_offsetof (struct malloc_chunk, fd_nextsize))+((2 * (sizeof(size_t))) - 1)) & ~((2 * (sizeof(size_t))) - 1))))
+new_size>0 && new_size<(2 * (4 * 1024 * 1024 * sizeof(long)))
+((unsigned long)((char*)p + new_size) & (pagesz-1)) == 0
+((char*)p + new_size) == ((char*)heap + heap->size)
+malloc(): smallbin double linked list corrupted
+victim->fd_nextsize->bk_nextsize == victim
+victim->bk_nextsize->fd_nextsize == victim
+(unsigned long)(size) >= (unsigned long)(nb)
+((size_t)((void*)((char*)(mm) + 2*(sizeof(size_t)))) & ((2 * (sizeof(size_t))) - 1)) == 0
+(old_top == (((mbinptr) (((char *) &((av)->bins[((1) - 1) * 2])) - __builtin_offsetof (struct malloc_chunk, fd)))) && old_size == 0) || ((unsigned long) (old_size) >= (unsigned long)((((__builtin_offsetof (struct malloc_chunk, fd_nextsize))+((2 * (sizeof(size_t))) - 1)) & ~((2 * (sizeof(size_t))) - 1))) && ((old_top)->size & 0x1) && ((unsigned long)old_end & pagemask) == 0)
+(unsigned long)(old_size) < (unsigned long)(nb + (unsigned long)((((__builtin_offsetof (struct malloc_chunk, fd_nextsize))+((2 * (sizeof(size_t))) - 1)) & ~((2 * (sizeof(size_t))) - 1))))
+((unsigned long)((void*)((char*)(brk) + 2*(sizeof(size_t)))) & ((2 * (sizeof(size_t))) - 1)) == 0
+newsize >= nb && (((unsigned long)(((void*)((char*)(p) + 2*(sizeof(size_t)))))) % alignment) == 0
+(unsigned long)(newsize) >= (unsigned long)(nb)
+!victim || ((((mchunkptr)((char*)(victim) - 2*(sizeof(size_t)))))->size & 0x2) || ar_ptr == (((((mchunkptr)((char*)(victim) - 2*(sizeof(size_t)))))->size & 0x4) ? ((heap_info *)((unsigned long)(((mchunkptr)((char*)(victim) - 2*(sizeof(size_t))))) & ~((2 * (4 * 1024 * 1024 * sizeof(long)))-1)))->ar_ptr : &main_arena)
+!newp || ((((mchunkptr)((char*)(newp) - 2*(sizeof(size_t)))))->size & 0x2) || ar_ptr == (((((mchunkptr)((char*)(newp) - 2*(sizeof(size_t)))))->size & 0x4) ? ((heap_info *)((unsigned long)(((mchunkptr)((char*)(newp) - 2*(sizeof(size_t))))) & ~((2 * (4 * 1024 * 1024 * sizeof(long)))-1)))->ar_ptr : &main_arena)
+!p || ((((mchunkptr)((char*)(p) - 2*(sizeof(size_t)))))->size & 0x2) || ar_ptr == (((((mchunkptr)((char*)(p) - 2*(sizeof(size_t)))))->size & 0x4) ? ((heap_info *)((unsigned long)(((mchunkptr)((char*)(p) - 2*(sizeof(size_t))))) & ~((2 * (4 * 1024 * 1024 * sizeof(long)))-1)))->ar_ptr : &main_arena)
+!mem || ((((mchunkptr)((char*)(mem) - 2*(sizeof(size_t)))))->size & 0x2) || av == (((((mchunkptr)((char*)(mem) - 2*(sizeof(size_t)))))->size & 0x4) ? ((heap_info *)((unsigned long)(((mchunkptr)((char*)(mem) - 2*(sizeof(size_t))))) & ~((2 * (4 * 1024 * 1024 * sizeof(long)))-1)))->ar_ptr : &main_arena)
+(char *) ((void*)((char*)(p) + 2*(sizeof(size_t)))) + 4 * (sizeof(size_t)) <= paligned_mem
+<total type="fast" count="%zu" size="%zu"/>
+<total type="rest" count="%zu" size="%zu"/>
+../sysdeps/x86_64/multiarch/../cacheinfo.c
+%a%N%f%N%d%N%b%N%s %h %e %r%N%C-%z %T%N%c%N
+ISO/IEC JTC1/SC22/WG20 - internationalization
+C/o Keld Simonsen, Skt. Jorgens Alle 8, DK-1615 Kobenhavn V
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZto_outpunct
+(unsigned int) done < (unsigned int) 2147483647
+@@@@@@@@@@@@@@@@[[[[[[[[[[[[[[[[                ZZZZZZZZZZZZZZZZ
+status == __GCONV_OK || status == __GCONV_EMPTY_INPUT || status == __GCONV_ILLEGAL_INPUT || status == __GCONV_INCOMPLETE_INPUT || status == __GCONV_FULL_OUTPUT
+__extension__ ({ size_t __s1_len, __s2_len; (__builtin_constant_p (&zone_names[info->idx]) && __builtin_constant_p (__tzname[tp->tm_isdst]) && (__s1_len = __builtin_strlen (&zone_names[info->idx]), __s2_len = __builtin_strlen (__tzname[tp->tm_isdst]), (!((size_t)(const void *)((&zone_names[info->idx]) + 1) - (size_t)(const void *)(&zone_names[info->idx]) == 1) || __s1_len >= 4) && (!((size_t)(const void *)((__tzname[tp->tm_isdst]) + 1) - (size_t)(const void *)(__tzname[tp->tm_isdst]) == 1) || __s2_len >= 4)) ? __builtin_strcmp (&zone_names[info->idx], __tzname[tp->tm_isdst]) : (__builtin_constant_p (&zone_names[info->idx]) && ((size_t)(const void *)((&zone_names[info->idx]) + 1) - (size_t)(const void *)(&zone_names[info->idx]) == 1) && (__s1_len = __builtin_strlen (&zone_names[info->idx]), __s1_len < 4) ? (__builtin_constant_p (__tzname[tp->tm_isdst]) && ((size_t)(const void *)((__tzname[tp->tm_isdst]) + 1) - (size_t)(const void *)(__tzname[tp->tm_isdst]) == 1) ? __builtin_strcmp (&zone_names[info->idx], __tzname[tp->tm_isdst]) : (__extension__ ({ __const unsigned char *__s2 = (__const unsigned char *) (__const char *) (__tzname[tp->tm_isdst]); register int __result = (((__const unsigned char *) (__const char *) (&zone_names[info->idx]))[0] - __s2[0]); if (__s1_len > 0 && __result == 0) { __result = (((__const unsigned char *) (__const char *) (&zone_names[info->idx]))[1] - __s2[1]); if (__s1_len > 1 && __result == 0) { __result = (((__const unsigned char *) (__const char *) (&zone_names[info->idx]))[2] - __s2[2]); if (__s1_len > 2 && __result == 0) __result = (((__const unsigned char *) (__const char *) (&zone_names[info->idx]))[3] - __s2[3]); } } __result; }))) : (__builtin_constant_p (__tzname[tp->tm_isdst]) && ((size_t)(const void *)((__tzname[tp->tm_isdst]) + 1) - (size_t)(const void *)(__tzname[tp->tm_isdst]) == 1) && (__s2_len = __builtin_strlen (__tzname[tp->tm_isdst]), __s2_len < 4) ? (__builtin_constant_p (&zone_names[info->idx]) && ((size_t)(const void *)((&zone_names[info->idx]) + 1) - (size_t)(const void *)(&zone_names[info->idx]) == 1) ? __builtin_strcmp (&zone_names[info->idx], __tzname[tp->tm_isdst]) : (__extension__ ({ __const unsigned char *__s1 = (__const unsigned char *) (__const char *) (&zone_names[info->idx]); register int __result = __s1[0] - ((__const unsigned char *) (__const char *) (__tzname[tp->tm_isdst]))[0]; if (__s2_len > 0 && __result == 0) { __result = (__s1[1] - ((__const unsigned char *) (__const char *) (__tzname[tp->tm_isdst]))[1]); if (__s2_len > 1 && __result == 0) { __result = (__s1[2] - ((__const unsigned char *) (__const char *) (__tzname[tp->tm_isdst]))[2]); if (__s2_len > 2 && __result == 0) __result = (__s1[3] - ((__const unsigned char *) (__const char *) (__tzname[tp->tm_isdst]))[3]); } } __result; }))) : __builtin_strcmp (&zone_names[info->idx], __tzname[tp->tm_isdst])))); }) == 0
+../nptl/sysdeps/unix/sysv/linux/x86_64/../fork.c
+({ __typeof (self->tid) __value; if (sizeof (__value) == 1) asm volatile ("movb %%fs:%P2,%b0" : "=q" (__value) : "0" (0), "i" (__builtin_offsetof (struct pthread, tid))); else if (sizeof (__value) == 4) asm volatile ("movl %%fs:%P1,%0" : "=r" (__value) : "i" (__builtin_offsetof (struct pthread, tid))); else { if (sizeof (__value) != 8) abort (); asm volatile ("movq %%fs:%P1,%q0" : "=r" (__value) : "i" (__builtin_offsetof (struct pthread, tid))); } __value; }) != ppid
+({ __typeof (({ struct pthread *__self; asm ("movq %%fs:%c1,%q0" : "=r" (__self) : "i" (__builtin_offsetof (struct pthread, header.self))); __self;})->tid) __value; if (sizeof (__value) == 1) asm volatile ("movb %%fs:%P2,%b0" : "=q" (__value) : "0" (0), "i" (__builtin_offsetof (struct pthread, tid))); else if (sizeof (__value) == 4) asm volatile ("movl %%fs:%P1,%0" : "=r" (__value) : "i" (__builtin_offsetof (struct pthread, tid))); else { if (sizeof (__value) != 8) abort (); asm volatile ("movq %%fs:%P1,%q0" : "=r" (__value) : "i" (__builtin_offsetof (struct pthread, tid))); } __value; }) == ppid
+invalid openat call: O_CREAT without mode
+__libc_errno != 34 || buf != ((void *)0) || size != 0
+cannot allocate memory for program header
+cannot enable executable stack as shared object requires
+ELF load command alignment not page-aligned
+ELF load command address/offset not properly aligned
+cannot allocate TLS data structures for initial thread
+info[9]->d_un.d_val == sizeof (Elf64_Rela)
+  dynamic: 0x%0*lx  base: 0x%0*lx   size: 0x%0*Zx
+    entry: 0x%0*lx  phdr: 0x%0*lx  phnum:   %*u
+ELF file version ident does not match current one
+ELF file version does not match current one
+ELF file's phentsize not the expected size
+file=%s [%lu];  dynamically loaded by %s [%lu]
+version->filename == ((void *)0) || ! _dl_name_match_p (version->filename, map)
+version == ((void *)0) || (flags & ~(DL_LOOKUP_ADD_DEPENDENCY | DL_LOOKUP_GSCOPE_LOCK)) == 0
+file=%s [%lu];  needed by %s [%lu] (relocation dependency)
+binding file %s [%lu] to %s [%lu]: %s symbol `%s'
+(bitmask_nwords & (bitmask_nwords - 1)) == 0
+cannot allocate memory in static TLS block
+cannot make segment writable for relocation
+%s: Symbol `%s' causes overflow in R_X86_64_32 relocation
+%s: Symbol `%s' causes overflow in R_X86_64_PC32 relocation
+%s: Symbol `%s' has different size in shared object, consider re-linking
+%s: out of memory to store relocation results for %s
+cannot apply additional memory protection after relocation
+map->l_tls_blocksize >= map->l_tls_initimage_size
+(size_t) map->l_tls_offset >= map->l_tls_blocksize
+outbuf != ((void *)0) && *outbuf != ((void *)0)
+deriv->steps[cnt].__shlib_handle != ((void *)0)
+/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+cnt < (sizeof (_nl_value_type_LC_NUMERIC) / sizeof (_nl_value_type_LC_NUMERIC[0]))
+cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))
+cnt < (sizeof (_nl_value_type_LC_COLLATE) / sizeof (_nl_value_type_LC_COLLATE[0]))
+cnt < (sizeof (_nl_value_type_LC_MONETARY) / sizeof (_nl_value_type_LC_MONETARY[0]))
+cnt < (sizeof (_nl_value_type_LC_MESSAGES) / sizeof (_nl_value_type_LC_MESSAGES[0]))
+cnt < (sizeof (_nl_value_type_LC_PAPER) / sizeof (_nl_value_type_LC_PAPER[0]))
+cnt < (sizeof (_nl_value_type_LC_NAME) / sizeof (_nl_value_type_LC_NAME[0]))
+cnt < (sizeof (_nl_value_type_LC_ADDRESS) / sizeof (_nl_value_type_LC_ADDRESS[0]))
+cnt < (sizeof (_nl_value_type_LC_TELEPHONE) / sizeof (_nl_value_type_LC_TELEPHONE[0]))
+cnt < (sizeof (_nl_value_type_LC_MEASUREMENT) / sizeof (_nl_value_type_LC_MEASUREMENT[0]))
+cnt < (sizeof (_nl_value_type_LC_IDENTIFICATION) / sizeof (_nl_value_type_LC_IDENTIFICATION[0]))
+cnt < (((uint32_t) (*_nl_current_LC_CTYPE)->values[((int) (_NL_CTYPE_MB_CUR_MAX) & 0xffff)].word))
+Attempting to link in too many shared libraries
+Invalid or incomplete multibyte or wide character
+Interrupted system call should be restarted
+Cannot send after transport endpoint shutdown
+%s: file is no correct profile data file for `%s'
+Out of memory while initializing profiler
+*nsize < ((((128 + 2 * 24) + ((64) - 1)) / (64)) + 2)
+dig_no <= (uintmax_t) (9223372036854775807L)
+int_no <= (uintmax_t) ((9223372036854775807L) + (-125) - 24) / 4
+lead_zero == 0 && int_no <= (uintmax_t) (9223372036854775807L) / 4
+lead_zero <= (uintmax_t) ((9223372036854775807L) - 128 - 3) / 4
+int_no <= (uintmax_t) ((9223372036854775807L) + (-37) - 24)
+lead_zero == 0 && int_no <= (uintmax_t) (9223372036854775807L)
+lead_zero <= (uintmax_t) ((9223372036854775807L) - 38 - 1)
+lead_zero <= (base == 16 ? (uintmax_t) (9223372036854775807L) / 4 : (uintmax_t) (9223372036854775807L))
+lead_zero <= (base == 16 ? ((uintmax_t) exponent - (uintmax_t) (-9223372036854775807L-1)) / 4 : ((uintmax_t) exponent - (uintmax_t) (-9223372036854775807L-1)))
+int_no <= (uintmax_t) (exponent < 0 ? ((9223372036854775807L) - bits + 1) / 4 : ((9223372036854775807L) - exponent - bits + 1) / 4)
+*nsize < ((((1024 + 2 * 53) + ((64) - 1)) / (64)) + 2)
+int_no <= (uintmax_t) ((9223372036854775807L) + (-1021) - 53) / 4
+lead_zero <= (uintmax_t) ((9223372036854775807L) - 1024 - 3) / 4
+int_no <= (uintmax_t) ((9223372036854775807L) + (-307) - 53)
+lead_zero <= (uintmax_t) ((9223372036854775807L) - 308 - 1)
+*nsize < ((((16384 + 2 * 64) + ((64) - 1)) / (64)) + 2)
+int_no <= (uintmax_t) ((9223372036854775807L) + (-16381) - 64) / 4
+lead_zero <= (uintmax_t) ((9223372036854775807L) - 16384 - 3) / 4
+int_no <= (uintmax_t) ((9223372036854775807L) + (-4931) - 64)
+lead_zero <= (uintmax_t) ((9223372036854775807L) - 4932 - 1)
+no more namespaces available for dlmopen()
+_dl_debug_initialize (0, args.nsid)->r_state == RT_CONSISTENT
+_dl_debug_initialize (0, args->nsid)->r_state == RT_CONSISTENT
+opening file=%s [%lu]; direct_opencount=%u
+TLS generation counter wrapped!  Please report this.
+cannot load any more object with static TLS
+(*lp)->l_idx >= 0 && (*lp)->l_idx < nloaded
+jmap->l_idx >= 0 && jmap->l_idx < nloaded
+imap->l_type == lt_loaded && (imap->l_flags_1 & 0x00000008) == 0
+TLS generation counter wrapped!  Please report as described in <http://www.debian.org/Bugs/>.
+cannot load auxiliary `%s' because of empty dynamic string token substitution
+load auxiliary object=%s requested by file=%s
+load filtered object=%s requested by file=%s
+Filters not supported with LD_TRACE_PRELINKING
+ns == 0 || i == nloaded || i == nloaded - 1
+checking for version `%s' in file %s [%lu] required by file %s [%lu]
+no version information available (required by 
+RTLD_NEXT used in code not dynamically loaded
+GCC: (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3
+__elf_set___libc_thread_subfreeres_element_arena_thread_freeres__
+__elf_set___libc_atexit_element__IO_cleanup__
+__elf_set___libc_subfreeres_element_buffer_free__
+__elf_set___libc_subfreeres_element_free_mem__
